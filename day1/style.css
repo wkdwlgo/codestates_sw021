@@ -1,0 +1,95 @@
+
+
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    color:#e5bf93;
+    
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    text-align:center;
+  }
+  .movie_poster{
+    width: 300px;
+  }
+  .actor_img{
+    width: 116px;
+    height: 168px;
+    margin-top:2rem;
+  }
+  .title_img{
+    width:60%
+    
+  }
+  .first_title{
+    margin: 6% 0 0 0;
+  }
+  .movie_info{
+    margin:2rem;
+  }
+  h2,h3,h5{
+    
+    color:#c9c9c9;
+  }
+  
+  a{
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; /* 링크의 색상 제거 */
+  }
+  
+  button {
+    display: block;
+    text-align:center;
+    margin-top: 3rem;
+    padding: 7px 14px;
+    background-color: #e5bf93;
+    color: #ff6427;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* 가로 방향 가운데 정렬 */
+    /* 기타 버튼 스타일 */
+  }
+  
+  .review {
+    text-align: center; /* 이 줄을 추가하여 내용을 가운데에 위치시킵니다 */
+    /* 리뷰 섹션의 기타 스타일 */
+    
+  }
+  
+  .review_input{
+    margin-top:5px;
+  }
+  
+  .movie_list{
+    font-size:14px; 
+    color:#c9c9c9;
+    margin-bottom: 30px;
+  }
+  
+  li::marker {
+    content: none; /* 마커 내용을 없앰 */
+  }
+  
+  li{
+    margin-bottom:7px;
+  }
+  
+  ul{
+    padding: 0px;
+  }
+  
+  .button_box{
+    margin-top: 10px;
+  }
+  
+  form{
+    margin-top:11px
+  }
+  
+  .review{
+    margin-bottom:7%;
+  }
