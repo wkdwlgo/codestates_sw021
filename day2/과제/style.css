@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #92A8D1;
+  }
+  
+  header {
+    background-color: #92A8D1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    /* 추가된 부분 */
+    padding: 2rem;
+    /* 추가된 부분 */
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #92A8D1;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .movie-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+    list-style: none;
+  }
+  
+  .movie-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    /* 변경된 부분 */
+    transition: background-color 0.3s;
+  }
+  
+  .movie-item:hover {
+    background-color: #f7cac9;
+    /* 변경된 부분 */
+  }
+  
+  .movie-item img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .movie-details {
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #92A8D1;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  
+  .login-form {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .login-form label,
+  .login-form input {
+    display: block;
+    margin: 0 auto 1rem;
+    /* 수정된 부분 */
+  }
+  
+  .login-form button {
+    background-color: #92A8D1;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #7799B7;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
