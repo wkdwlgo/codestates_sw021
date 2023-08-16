@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>MoviePick</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <section id="main-page">
+    <header class="header">
+      <a class="logo" href="./index.html">
+        <h3>MoviePick</h3>
+      </a>
+      <nav class="navbar">
+        <a href="./login.html">login</a>
+        <a href="./join.html">signup</a>
+      </nav>
+    </header>
+    <main class="login-page">
+      <sidebar class="sidebar"></sidebar>
+      <div class="login-form">
+        <h3 class="login">SignUp</h3>
+        <form action="">
+          <input type="text" class="id" placeholder="   아이디" required>
+          <div class="id-success-message hide">사용가능한 id입니다.</div>
+          <div class="id-failure-message hide">
+            영문, 숫자만 입력가능 합니다, 첫글자는 영문자로 입력해주세요.
+            <br>8자 이상, 12글자 이하로 입력해주세요.
+          </div>
+          <input type="password" class="password" placeholder="   비밀번호" required>
+          <div class="pw-success-message hide">사용가능한 비밀번호입니다.</div>
+          <div class="pw-failure-message hide">
+            영문, 숫자, 특수문자가 모두 포함되어야 합니다.
+            <br>8글자 이상, 16글자 이하로 입력해주세요.
+          </div>
+          <input type="password" class="passwordCheck" placeholder="   비밀번호 확인" required>
+          <div class="pwck-success-message hide">비밀번호와 일치합니다.</div>
+          <div class="pwck-failure-message hide">비밀번호와 일치하지 않습니다.</div>
+          <button type="submit">회원가입</button>
+        </form>
+      </div>
+
+
+      <sidebar class="sidebar"></sidebar>
+    </main>
+    <footer class="footer">
+      <a href="">
+        <h3>© 2023 MoviePick. All rights reserved.</h3>
+      </a>
+    </footer>
+  </section>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+</body>
+
+</html>
